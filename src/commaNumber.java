@@ -5,6 +5,8 @@
  * Eg. Convert 12345678 to "12,345,678".
  *
  * Completed question with solution.
+ *
+ * Solution created by Michael. References to google sources to help make my answer better.
  * */
 
 public class commaNumber {
