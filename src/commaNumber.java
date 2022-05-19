@@ -1,12 +1,25 @@
 /**
  * Interview question that I was asked by a recruiter. Ericsson.
+ *
+ * Convert any integer to a string with commas in between the thousands.
+ * Eg. Convert 12345678 to "12,345,678".
+ *
  * Completed question with solution.
  * */
 
 public class commaNumber {
 
     public static void main(String[] args) {
-        System.out.println(commaInteger(12345678));
+
+        // the sample input was 12345678
+        // System.out.println(commaInteger(12345678));
+       //System.out.println(commaInteger(123));
+
+
+        int[] storage = new int[]{123, 1234, 12345, 123456, 1234567,12345678};
+        for (int i : storage){
+            System.out.println(commaInteger(i));
+        }
 
     }
 
