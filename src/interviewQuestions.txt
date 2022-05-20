@@ -1,0 +1,2 @@
+1. What is oop
+2. Explain inheritance and polymorphism with explanations and examples
